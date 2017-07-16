@@ -2,13 +2,16 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+//import { EditorComponent } from './editor/editor.component';
+import {AceEditorModule} from 'ng2-ace-editor';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AceEditorModule 
   ],
   providers: [],
   bootstrap: [AppComponent]
